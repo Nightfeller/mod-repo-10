@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const fs = require('fs');
+const { writeFile } = require('fs/promises');
 const chalk = require('chalk');
 //const chalk = new normalChalk({level: 3});
 
@@ -70,5 +70,7 @@ inquirer.prompt(inputs).then((response) => {
     console.log(color(iName)); 
     console.log(paint(sName));
 
-    renderHTML(response, paint, color);
+    writeFile('logo.svg', renderHTML(response, paint, color));
+}).catch(err => {
+    console.log(err);
 });
