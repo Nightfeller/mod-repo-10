@@ -2,7 +2,7 @@
 
     <rect width=100% height=100% fill="white" />
 
-    <rect width=150 height=150 x=75 y=25 fill="red"/>
+    <circle cx=150 cy=100 r=75 fill="aliceblue" />
 
     <text x=150 y=110 font-size=40 text-anchor="middle" fill="blue">ADS</text>
 </svg>
