@@ -19,6 +19,8 @@ After typing the initials, you can select the three options of shapes: Square, C
 
 Afterwards, you have to say the color you want on your logo's initials and shape. You can choose either a broad color name, or a hexadecimal color code. Note that if you follow the broad naming scheme, the code uses the CSS/HTML coloring scheme.
 
+Here is a video of the process: https://drive.google.com/file/d/1Q5skDDUFnzLODNjyacgVcEzeJ6coCSm_/view
+
 ## Credits
 
 There is no one else who contrbuted to this.
